@@ -21,7 +21,7 @@ yarn add @sheninthjr/form
 To use Forms in your project, import the component and use it in your JSX code like this:
 
 ```jsx
-import Forms from "@sheninthjr/form";
+import { Forms } from "@sheninthjr/form";
 
 const onSubmit = (values) => {
   console.log(values);
@@ -55,7 +55,7 @@ Forms is built using the [Radix UI library](https://www.radix-ui.com/), which pr
 For example, to change the background color of the form, you can use the className prop to apply a custom CSS class:
 
 ```jsx
-import Forms from "@sheninthjr/form";
+import { Forms } from "@sheninthjr/form";
 
 const onSubmit = (values) => {
   console.log(values);
